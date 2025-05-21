@@ -1,6 +1,8 @@
 ## README
 No partner, just me: Niroop Krishnakumar
 
+_Check your understanding_
+
 1. Within a Github action that runs whenever code is pushed. This ensures code is added incrementally and only accepted if it passes our automated tests. Choice 2 is decent but defeats the purpose of automation with Github. Choice 3 is simply bad practice.
 2. No
 3. Navigation mode loads the page and only then analyzes it, unlike snapshot mode which analyzes the page in its current state without reloading. Navigation mode provides an overall performance metric while snapshot mode is best for finding accessibility issues, as it's quicker and not as thorough when checking other aspects. Snapshot mode also does not measure javascript performance at all unlike navigation mode.
